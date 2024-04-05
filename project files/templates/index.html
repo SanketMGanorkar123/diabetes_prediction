@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:LightGray;">
+<h1 style="background-color:DodgerBlue;">Diabetes Prediction Model by Omsai</h1>
+
+
+
+    <form action="/predict" method="POST">
+        Glucose       (Max 200)  =        <input type="text" name="Glucose"> <br>
+        BloodPressure (Max 120)  =            <input type="text" name="BloodPressure"> <br>
+        SkinThickness (Max 100)  =            <input type="text" name="SkinThickness"> <br>
+        Insulin       (Max 850)  =                  <input type="text" name="Insulin"> <br>
+        BMI           (Max 60 )  =                      <input type="text" name="BMI"> <br>
+        DiabetesPedig (Max 3  )  = <input type="text" name="DiabetesPedigreeFunction"> <br>
+        Age           (Max 80 )  =                      <input type="text" name="Age"> <br>
+
+
+        <input type="submit">
+    </form>
+</body>
+</html>
